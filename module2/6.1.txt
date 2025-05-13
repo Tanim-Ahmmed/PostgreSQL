@@ -1,0 +1,147 @@
+///6.1
+
+understanding anomalies
+
+refer to inconsistencies or unexpected issues can occur during data manupulation and retrival .
+
+type of anomalies
+
+update anomalies
+delete anomalies
+insert anomalies 
+
+
+///6.2
+
+normalization to solve anomalies and data redundencry 
+
+
+
+functional dependency ?
+
+the value of one anttribute uniquely determines the value of another attrubute(s) in a database table.   
+
+
+for functional dependency:
+
+ X --> Y
+
+       t1.x = t2.X
+  then, t1.y = t2.y
+
+///6.3
+
+normalization (1NF)
+
+a series of guidelines that helps to ensure that the design of a database is efficient, organaized and free from data anomalies.
+
+
+0nf, 1nf,2nf,3nf ...
+
+
+1nf : 
+     atomic values 
+     unique column names
+     positional dependency of data
+     column should contain data that are og the same type 
+     determine primary key
+
+
+///6.4
+
+2nd formal forms and partial dependency
+
+      2nf:  (must not be  any functional or  partial functional dependency)
+
+         1 must be in 1nf
+         2 must not contain non-prime / non-key attribute that is functionally dependent on a proper subset of candidate key of the relation 
+
+
+        during data  decompose if any data is lost , then it called 
+        losy decomposition.
+
+
+note : 2nf can solve many to many relationship 
+
+
+///6.5
+ 3rd normalization or 3nf
+    
+    3nf:
+        must be in 2nf
+        must be contain transitive dependency
+
+        for example of transitive dependency:
+        x--> y & y--> z 
+        x-->z
+
+
+////6.6 
+
+in fourth step if there any many to many relation then we can solve it
+throw junction table / intermediate table.
+
+////6.7
+
+bottom up is exixting database design is reshape already desingd database.
+
+////6.8
+
+  postgres is relational database management system . 
+  1. opensource 
+  2.modern
+  3.ACID compliance
+  5. advance datatype
+  6. scalability
+  7. indexing 
+  8. community support
+  9.RDBMS
+  10. most populer 
+
+  
+  
+////6.9
+server to dbms conncet with driver called :->
+for,
+mongodb -> mongosee
+
+postgres -> prisma 
+
+
+
+postgres commands:
+
+ select version(); --> version
+ \l --> database list
+ \c template1 --> conncet to tamplate 1
+ \d  --> finde table
+ create table test_table(name varchar(50)); -> create table
+
+ \dn --> see secema 
+
+ \ d --> list of relation
+
+ \dt --> only table show 
+ \coninfo --> where is connected
+
+
+
+ \\\\6.10
+
+ 
+case study :-->
+
+Top-Down database design steps :
+
+>> Core Requirement >> Entities >> attribute >> relationship >> solve many to many .
+
+
+
+
+
+
+
+
+
+
+
