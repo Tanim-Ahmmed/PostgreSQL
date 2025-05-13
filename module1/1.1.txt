@@ -1,0 +1,138 @@
+module 1
+
+
+///1.1
+relational database management
+
+
+1. what is database?
+
+a database is a structured collection of related data , that relate some real world entities and are organized for efficient retrival storage and management.
+
+2. what is data?
+
+data is facts , that can be recorded in form of manything..
+
+3. what is information?
+
+information is a proccesed and organized data 
+
+
+
+
+/// 1.2
+
+dbms 
+a software that helps us to manage databse ...
+with dbms we can handle... unstuctured , redundencry , concurrency , inconsistency, sequrity, access comlication 
+
+
+////1.3
+
+dbms models 
+
+hierarchical 
+network
+relational
+document
+key value 
+
+
+relational: table formate data , reallife entity is name phone number etc, key is a uniqly identifier of a row , primary key is a key of an table a , for table b , a's key is Foreign key
+
+
+
+
+///1.4
+
+TABLE / relation
+
+first of all need to define entities
+
+for user table,
+column / attribute 
+constraint / domain
+a full row is tuple/ reccord 
+
+all collection of column is Degree
+
+all of rows is cardinality
+
+
+//// 1.5
+
+Keys 
+
+key in a relational databse is a field or a combination of fields that uniqly identifies a record in a table
+
+
+primary key, super key, candidate key, alternate key, composite key , foreign key
+
+supper key can be single or set of  attribute , that can uniqly identifies a row .
+
+////1.6
+
+
+candidate key is that type of super key, that can not be breakable as a super key, also candidate key is a potential primary key .
+
+
+primary key must be uniqe , not null, stable or dose not change .
+primary key is a  one of main candidate key or single candidate key.  
+
+
+alternate key, is that candidate keys , that not choscen as primary key.
+
+///1.7
+Foreign key:  one table primary key is Foreign key of another table .
+
+
+
+////1.8
+
+sdlc models
+
+planning > analysis > system design> building> testing > deployment 
+
+
+databse design is a part of system design .....
+
+
+techniques of design databse
+1. top-down 
+2. bottom-up
+
+///1.9
+
+dtabase design steps 
+top-down 
+
+1. determining entities
+
+2. determining attribute
+
+3. determining relationship
+
+4. if there in the relationship any many to many relation then resoleve 
+it .
+
+////1.10
+relationship and relationship cardinality
+
+connection between entity and table 
+
+
+cardinality
+
+how many instances one entity is associeted with how many instances of another entities
+
+one to one
+one to many
+many to many
+
+
+/////1.11
+
+er diagram tool 
+
+draw.io 
+lucid chart 
