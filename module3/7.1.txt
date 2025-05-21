@@ -1,2 +1,59 @@
 //7.1 database design
 //7.2   
+
+create database testdb - for database create 
+create database testdb1 with (all element can diclare by manually)
+
+///7.3 user namangement 
+
+create table test_table
+insert into  test_table(name) valuse('tanim')
+
+///7.4
+grant all privilages on test_table to user1
+
+create user user2 with encrypted password '123456' - create another user
+
+grant select on table test_table to user2
+
+revoke select on test_table from user2
+
+grant all privilages on all table in chema public to user2
+
+create role role1
+
+grant select on all tables in chema public to role1
+
+grant role1 to user1
+
+///7.5
+sql structured query language
+///7.6
+pg admin 
+
+///7.7
+
+psql -u postgres -d postgres
+
+create database test;
+
+--create DATABASE ph;
+
+-- creating table 
+
+-- create TABLE person (
+-- person_id serial,
+-- first_name VARCHAR(50),
+-- last_name VARCHAR(50),
+-- 
+-- age INTEGER,
+-- is_active BOOLEAN,
+-- dob Datepublic
+-- 
+-- );
+
+
+-- ALTER   TABLE person RENAME to "user";
+
+///7.9
+
