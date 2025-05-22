@@ -57,3 +57,14 @@ create database test;
 
 ///7.9
 
+\\\8.6
+
+scalar functions 
+
+it operate on a single value and return a single value. they perform an operation on each rows data independently
+
+aggregate
+
+aggregate functions operate on a set of values and return a single value summarizing that set. they perform an operation across multiple rows. often used with the group by clause 
+
+
