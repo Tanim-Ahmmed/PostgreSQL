@@ -85,4 +85,4 @@ SELECT * FROM student LIMIT 5 OFFSET 5 * 1;
 DELETE FROM student WHERE grade = 'C';
 
 --update
-UPDATE student SET grade = 'A-' WHERE student_id = 2;
+UPDATE student SET grade = 'A+' WHERE student_id = 2;
